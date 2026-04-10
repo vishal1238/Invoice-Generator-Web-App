@@ -59,7 +59,7 @@ function App() {
       <header className="bg-indigo-600 text-white p-4 shadow-md sticky top-0 z-10 w-full">
         <div className="max-w-7xl mx-auto flex items-center gap-2">
           <FileText size={28} />
-          <h1 className="text-xl font-bold tracking-wide">React Invoice Generator</h1>
+          <h1 className="text-xl font-bold tracking-wide">Invoice Generator</h1>
         </div>
       </header>
 

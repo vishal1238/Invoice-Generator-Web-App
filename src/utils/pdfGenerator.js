@@ -1,5 +1,5 @@
-import jsPDF from 'jspdf';
-import 'jspdf-autotable';
+import { jsPDF } from 'jspdf';
+import autoTable from 'jspdf-autotable';
 
 export const generateInvoicePDF = (invoiceData) => {
   const doc = new jsPDF();
@@ -57,7 +57,7 @@ export const generateInvoicePDF = (invoiceData) => {
   // Actually, I can draw the table manually or just install `jspdf-autotable`. Let's assume I install it now, it's safer.
   // Wait, I will just run `npm install jspdf-autotable` in the background while I finish this file.
   
-  doc.autoTable({
+  autoTable(doc, {
     startY: finalYStart,
     head: [tableColumn],
     body: tableRows,

@@ -1,7 +1,7 @@
 
 ```markdown
 # 🧾 Invoice Generator Web App
-Live Demo: https://react-invoice-generator-web-app.netlify.app/
+Live Demo: [https://react-invoice-generator-web-app.netlify.app](https://react-invoice-generator-web-app.netlify.app)
 A responsive web application to generate professional invoices with real-time calculations and PDF download functionality.
 
 ## 🚀 Features

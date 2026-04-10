@@ -1,16 +1,97 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧾 Invoice Generator Web App
+Live Demo: 
 
-Currently, two official plugins are available:
+A responsive web application to generate professional invoices with real-time calculations and PDF download functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Add client details (name, email, address)
+- Dynamic itemized billing (item, quantity, price)
+- Automatic calculation of subtotal, tax, and total
+- Generate and download invoices as PDF (jsPDF)
+- Clean and user-friendly interface
+- Responsive design (mobile + desktop)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js  
+- JavaScript  
+- HTML5 & CSS3  
+- Tailwind CSS  
+- jsPDF  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+
+invoice-generator/
+│── src/
+│   ├── components/
+│   │   ├── InvoiceForm.js
+│   │   ├── ItemList.js
+│   │   └── InvoicePreview.js
+│   ├── utils/
+│   │   ├── pdfGenerator.js
+│   ├── App.js
+│   └── index.js
+│── public/
+│── package.json
+
+```
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+```
+
+git clone [https://github.com/your-username/invoice-generator.git](https://github.com/your-username/invoice-generator.git)
+
+```
+
+2. Navigate to the project folder:
+```
+
+cd invoice-generator
+
+```
+
+3. Install dependencies:
+```
+
+npm install
+
+```
+
+4. Run the app:
+```
+
+npm start
+
+```
+
+## 📄 Usage
+
+- Enter client details and invoice information  
+- Add items with quantity and price  
+- View real-time total calculation  
+- Click **Download PDF** to generate invoice  
+
+## ✨ Future Enhancements
+
+- Add authentication system  
+- Store invoices in database  
+- Add company logo customization  
+- Email invoice directly to clients  
+
+## 📌 Author
+
+**Vishal Gupta**  
+Freelance Full Stack Developer  
+
+---
+
+⭐ If you like this project, give it a star!
+```
+
+---

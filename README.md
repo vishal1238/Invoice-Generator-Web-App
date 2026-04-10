@@ -1,119 +1,130 @@
-Here’s your **improved, polished, and more professional README** — better structure, stronger wording, and GitHub-ready 👇
+<div align="center">
 
----
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/jsPDF-FF0000?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" />
 
-```markdown
-# 🧾 Invoice Generator Web App
+# 🧾 Invoice Generator
 
-🔗 **Live Demo:** https://react-invoice-generator-web-app.netlify.app  
+**A clean, responsive web app to create and download professional invoices — instantly.**
 
-A modern and responsive **Invoice Generator Web Application** built with React.js that enables users to create professional invoices with real-time calculations and export them as PDF files. Designed with a clean UI and efficient workflow to simplify billing for freelancers and small businesses.
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-4CAF50?style=for-the-badge)](https://react-invoice-generator-web-app.netlify.app)
+
+</div>
 
 ---
 
 ## ✨ Features
 
-- 📌 Add and manage client details (name, email, address)
-- 🧮 Dynamic itemized billing (item, quantity, price)
-- ⚡ Real-time calculation of subtotal, tax, and grand total
-- 📄 Generate and download professional invoices as PDF (jsPDF)
-- 🎨 Clean, intuitive, and user-friendly interface
-- 📱 Fully responsive design (mobile + desktop)
-- ♻️ Modular and reusable component structure
+| Feature | Description |
+|--------|-------------|
+| 👤 Client Details | Add client name, email, and address |
+| 📋 Dynamic Line Items | Add/remove items with quantity and unit price |
+| 🧮 Auto Calculations | Real-time subtotal, tax, and total computation |
+| 📄 PDF Export | One-click invoice download via jsPDF |
+| 📱 Responsive Design | Works seamlessly on mobile and desktop |
+| 🎨 Clean UI | Minimal, professional, user-friendly interface |
+
+---
+
+## 📸 Preview
+
+<img width="1380" height="993" alt="Screenshot 2026-04-10 174502" src="https://github.com/user-attachments/assets/4492f5c8-6b14-404c-938b-69b2fba694a6" />
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, JavaScript  
-- **Styling:** Tailwind CSS, HTML5, CSS3  
-- **PDF Generation:** jsPDF  
+- **Framework:** React.js
+- **Styling:** Tailwind CSS, HTML5, CSS3
+- **PDF Generation:** jsPDF
+- **Language:** JavaScript (ES6+)
 
 ---
 
 ## 📂 Project Structure
 
 ```
-
 invoice-generator/
-│── public/
-│── src/
-│   ├── components/
-│   │   ├── InvoiceForm.js
-│   │   ├── ItemList.js
-│   │   └── InvoicePreview.js
-│   ├── utils/
-│   │   └── pdfGenerator.js
-│   ├── App.js
-│   └── index.js
-│── package.json
-│── README.md
-
-````
-
----
-
-## ⚙️ Installation & Setup
-
-Follow these steps to run the project locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/invoice-generator.git
-
-# Navigate into the project directory
-cd invoice-generator
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm start
-````
-
----
-
-## 📄 Usage
-
-1. Enter client and invoice details
-2. Add items with quantity and pricing
-3. Review automatically calculated totals
-4. Click **Download PDF** to export the invoice
-
----
-
-## 🎯 Key Highlights
-
-* Real-time data handling for instant calculations
-* Smooth and efficient user experience
-* Professional PDF output for business use
-* Scalable and maintainable code structure
-
----
-
-## 🔮 Future Enhancements
-
-* 🔐 User authentication & dashboard
-* 💾 Save and manage invoice history (database integration)
-* 🖼️ Custom branding (logo, themes)
-* 📧 Send invoices directly via email
-* 📊 Analytics and reporting
-
----
-
-## 👨‍💻 Author
-
-**Vishal Gupta**
-Freelance Full Stack Developer
-
----
-
-## ⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub — it helps and motivates!
-
----
-
+├── public/
+└── src/
+    ├── components/
+    │   ├── InvoiceForm.js       # Client & invoice metadata inputs
+    │   ├── ItemList.js          # Dynamic line item management
+    │   └── InvoicePreview.js    # Live invoice preview panel
+    ├── utils/
+    │   └── pdfGenerator.js      # jsPDF export logic
+    ├── App.js
+    └── index.js
 ```
 
 ---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js `v16+`
+- npm or yarn
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/invoice-generator.git
+
+# 2. Navigate into the project
+cd invoice-generator
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
+```
+
+The app will be running at `http://localhost:3000`.
+
+---
+
+## 📖 Usage
+
+1. **Fill in client details** — name, email, and billing address
+2. **Add line items** — enter item description, quantity, and price
+3. **Review the totals** — subtotal, tax, and total update in real time
+4. **Download** — click **Download PDF** to save your invoice
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] User authentication & accounts
+- [ ] Invoice history stored in a database
+- [ ] Company logo upload & customization
+- [ ] Email invoice directly to clients
+- [ ] Multiple currency support
+- [ ] Invoice status tracking (Draft / Sent / Paid)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+```bash
+# Fork the repo, then:
+git checkout -b feature/your-feature-name
+git commit -m "Add: your feature description"
+git push origin feature/your-feature-name
+```
+
+---
+
+<div align="center">
+
+Made with ❤️ by **[Vishal Gupta](https://github.com/your-username)** · Freelance Full Stack Developer
+
+⭐ **Star this repo** if you found it useful!
+
+</div>

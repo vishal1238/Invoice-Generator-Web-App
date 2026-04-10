@@ -25,11 +25,11 @@ export default function InvoicePreview({ invoiceData }) {
               <p className="text-slate-500 font-medium tracking-wide">#{invoiceData.invoiceNumber || 'DRAFT'}</p>
             </div>
             <div className="text-right">
-              <h3 className="font-bold text-slate-800 text-lg">Your Company Name</h3>
+              <h3 className="font-bold text-slate-800 text-lg">Birashwar Tech Solutions</h3>
               <div className="text-slate-500 text-sm mt-1 space-y-1">
-                <p>123 Business Rd.</p>
-                <p>City, State, 12345</p>
-                <p>contact@yourcompany.com</p>
+                <p>SCO 45, Sector 17-C</p>
+                <p>Chandigarh, Punjab 160017</p>
+                <p>India</p>
                 <p className="mt-2 font-medium text-slate-700">Date: {invoiceData.date || 'N/A'}</p>
               </div>
             </div>

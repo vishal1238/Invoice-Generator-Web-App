@@ -45,7 +45,7 @@ invoice-generator/
 1. Clone the repository:
 ```
 
-git clone [https://github.com/your-username/invoice-generator.git](https://github.com/your-username/invoice-generator.git)
+git clone [https://github.com/vishal1238/invoice-generator.git](https://github.com/vishal1238/Invoice-Generator-Web-App)
 
 ```
 
